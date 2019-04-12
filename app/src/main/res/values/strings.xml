@@ -7,8 +7,9 @@
     <string name="dummy_content">DUMMY\nIMAGE</string>
 
     <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_signin">SignIn</string>
+    <string name="title_activity_signup">SignUp</string>
+    <string name="title_activity_userprofile">User Profile</string>
 
 
     <string name="text_accounts">All Accounts</string>
@@ -32,4 +33,11 @@
     <string name="hint_age">Age</string>
     <string name="hint_country">Country</string>
     <string name="hint_phonenumber">Phone Number</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>

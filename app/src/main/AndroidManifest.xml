@@ -11,21 +11,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ListAvailableHelp"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_userprofile"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ListAvailableHelp" />
         <activity android:name=".AskForHelp" />
-        <activity android:name=".UserProfile" />
-        <activity android:name=".SigninActivity"
+        <activity
+            android:name=".SigninActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_login"
+            android:label="@string/title_activity_signin"
             android:parentActivityName=".WelcomeScreenActivity"
             android:theme="@style/FullscreenTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.lagos.ligo.WelcomeScreenActivity" />
         </activity>
-
-
-        <activity android:name=".SignupActivity"
+        <activity
+            android:name=".SignupActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_signup"
             android:parentActivityName=".WelcomeScreenActivity"
@@ -34,15 +37,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.lagos.ligo.WelcomeScreenActivity" />
         </activity>
-
-
-        <activity  android:name=".MainActivity">
-        </activity>
-
         <activity
             android:name=".WelcomeScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_welcome_screen"
+            android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

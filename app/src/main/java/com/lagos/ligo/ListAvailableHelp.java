@@ -32,7 +32,7 @@ public class ListAvailableHelp extends AppCompatActivity {
 
         for(int i=0; i<100; i++){
             helpersList.add(new HelpersModel("Company Name" + i ,"Type of Help" + i));
-        }
+            helpersList.add(new HelpersModel("Company Name" + i ,"Type of Help" + i));      }
 
 
     }

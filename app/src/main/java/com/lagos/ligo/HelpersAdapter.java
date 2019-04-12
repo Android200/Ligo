@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,12 +54,15 @@ public class HelpersAdapter extends RecyclerView.Adapter<HelpersAdapter.MyViewHo
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
-        public TextView company_name, type_of_help, ask_help;
+        public TextView company_name, type_of_help;
+        public Button ask_help;
+
         public MyViewHolder(View view){
             super(view);
             company_name = view.findViewById(R.id.textView6);
             type_of_help = view.findViewById(R.id.textView7);
-            ask_help = view.findViewById(R.id.textView8);
+            ask_help = view.findViewById(R.id.buttonView);
+           
         }
     }
 
