@@ -91,11 +91,15 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
+        if (id == R.id.user_profile) {
+            Intent Intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(Intent);
+        } else if (id == R.id.list_of_helper) {
+            Intent Intent = new Intent(getApplicationContext(), ListAvailableHelp.class);
+            startActivity(Intent);
+        } else if (id == R.id.ask_for_help) {
+            Intent Intent = new Intent(getApplicationContext(), AskForHelp.class);
+            startActivity(Intent);
 
         } else if (id == R.id.nav_manage) {
 

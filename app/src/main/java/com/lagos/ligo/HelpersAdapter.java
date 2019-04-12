@@ -62,7 +62,7 @@ public class HelpersAdapter extends RecyclerView.Adapter<HelpersAdapter.MyViewHo
             company_name = view.findViewById(R.id.textView6);
             type_of_help = view.findViewById(R.id.textView7);
             ask_help = view.findViewById(R.id.buttonView);
-           
+
         }
     }
 

@@ -125,7 +125,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                 , textInputEditTextPassword.getText().toString().trim())) {
 
 
-            Intent accountsIntent = new Intent(activity, UserProfile.class);
+            Intent accountsIntent = new Intent(activity, MainActivity.class);
             //accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
             emptyInputEditText();
             startActivity(accountsIntent);
