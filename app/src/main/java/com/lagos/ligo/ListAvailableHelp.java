@@ -1,15 +1,13 @@
 package com.lagos.ligo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ListAvailableHelp extends AppCompatActivity {
 
@@ -32,7 +30,15 @@ public class ListAvailableHelp extends AppCompatActivity {
 
         for(int i=0; i<100; i++){
             helpersList.add(new HelpersModel("Company Name" + i ,"Type of Help" + i));
-            helpersList.add(new HelpersModel("Company Name" + i ,"Type of Help" + i));      }
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+            helpersList.add(new HelpersModel("Company Name" + i, "Type of Help" + i));
+        }
 
 
     }

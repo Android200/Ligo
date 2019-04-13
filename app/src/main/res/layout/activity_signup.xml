@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_name"
-                android:inputType="text"
+                android:inputType="textPersonName"
                 android:maxLines="1"
                 android:textColor="@android:color/white" />
         </android.support.design.widget.TextInputLayout>
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_gender"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:maxLines="1"
                 android:textColor="@android:color/white" />
         </android.support.design.widget.TextInputLayout>
@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_age"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:maxLines="1"
                     android:textColor="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -81,7 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_country"
-                    android:inputType="textPassword"
+                    android:inputType="text"
                     android:maxLines="1"
                     android:textColor="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_phonenumber"
-                    android:inputType="phone"
+                    android:inputType="phone|number"
                     android:maxLines="1"
                     android:textColor="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -113,7 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_email"
-                    android:inputType="text"
+                    android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:textColor="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
